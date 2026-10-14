@@ -1,0 +1,28 @@
+<<'EOF'
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Allow a safe example configuration
+!.env.example
+
+# Local databases and generated vector stores
+chroma_db/
+data/processed/
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+EOF
